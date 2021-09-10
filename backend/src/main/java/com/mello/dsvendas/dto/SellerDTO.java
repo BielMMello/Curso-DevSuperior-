@@ -9,7 +9,7 @@ public class SellerDTO implements Serializable{
 	
 	private Long id;
 	private String name;
-
+	
 	public SellerDTO() {
 		
 	}
@@ -23,7 +23,7 @@ public class SellerDTO implements Serializable{
 		id = entity.getId();
 		name = entity.getName();
 	}
-
+	
 	public Long getId() {
 		return id;
 	}
